@@ -14,3 +14,8 @@ hero = heroName()          // this shold gave an error because we have not decla
 
 
 export { }
+
+// any is not a special type that you're assigning it's not a String. it's not a Boolean
+// any is simplay a marker in the typescript which just simply says that hey i don't want 
+// to do type checking for it. basically turn off the type checking for that particular value 
+// you don't want that otherwise why you're using typescript.
